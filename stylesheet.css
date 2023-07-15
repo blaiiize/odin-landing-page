@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header , .top-content {
+    background-color: #1F2937;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 14px;
+    flex-shrink: 0;
+}
+
+a , .smaller-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.big-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0px;
+
+}
+
+.book-button , .reserve-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.action-button {
+    background-color: #3882F6;
+}
+
+.its-time {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.button-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.image-subtext {
+    font-size: 18px;
+    color: #3c4556;
+    text-align: center;
+    max-width: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.top-content {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+
+.left-top-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1px;
+}
+
+.top-image {
+    display: flex;
+    flex: 1;
+    height: 200px;
+}
+
+.book-button {
+    width: 100px;
+    border-radius: 25px;
+    border-width: 2px;
+}
+
+.reserve-button {
+    width: 100px;
+    border-radius: 25px;
+    border-width: 2px;
+    height: 50px;
+    align-self: center;
+    border-color: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+.image-section {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex: 1;
+}
+
+img {
+    max-width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+.info-header {
+    align-self: center;
+}
+
+.action-button {
+    display: flex;
+    margin: 100px;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.its-time {
+    margin-bottom: 0px;
+}
+
+.button-text {
+    margin-top: 0px;
+}
+
