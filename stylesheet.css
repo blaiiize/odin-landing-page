@@ -148,6 +148,7 @@ a , .smaller-text {
     gap: 30px;
     justify-content: center;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 img {
